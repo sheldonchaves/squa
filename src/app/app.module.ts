@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { AsideComponent } from './layout/aside/aside.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
-import { ExtractionModule } from './modules/extraction/extraction.module';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -28,7 +27,6 @@ import { DropdownModule } from 'primeng/dropdown';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ExtractionModule,
     ChartModule,
     TableModule,
     DropdownModule,
