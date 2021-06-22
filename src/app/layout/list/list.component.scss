@@ -1,0 +1,42 @@
+.card{
+  .card-title{
+    margin-bottom: 0;
+  }
+
+  .card-body{
+    padding: 0;
+    .table{
+      margin-bottom: 0;
+    }
+  }
+  .card-footer{
+    .pagination{
+      margin: 0
+    }
+  }
+}
+
+
+// 
+
+.current{
+  text-align: left;
+  border: 5px solid #35a243;
+
+  .card-header{
+    display: flex;
+    justify-content: space-between;
+    padding: .3em 1em;
+
+    .badge{
+      font-size: 100%;
+      margin-top: .3em;
+    }
+  }
+
+  .card-body{
+    background-color: #fff;
+    color: #000;
+    padding: .5em;
+  }
+}
